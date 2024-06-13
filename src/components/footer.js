@@ -1,7 +1,9 @@
 import "./Footerstyles.css";
 
 import React from 'react';
-import { FaFacebook, FaHome,FaLinkedin,FaMailBulk,FaPhone, FaTwitter } from "react-icons/fa";
+import {  FaHome,FaLinkedin,FaMailBulk,FaPhone } from "react-icons/fa";
+import {SiLeetcode } from "react-icons/si";
+import { AiFillGithub } from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
                     }/>
                     <div>
                         <p>
-                            Test address
+                            Banglore
                         </p>
                         <p>India</p>
                     </div>
@@ -23,14 +25,14 @@ const Footer = () => {
                     <h4>
                 <FaPhone size={20} style={
                         {color:"#fff",marginRight:"2rem"}
-                    }/>1234567890
+                    }/>7020336540
                     </h4>
                 </div>
                 <div className="email">
                     <h4>
                     <FaMailBulk size={20} style={
                         {color:"#fff",marginRight:"2rem"}
-                    }/>test@gmail.com
+                    }/>sajaljaisw9@gmail.com
                     </h4>
                 </div>
             </div>
@@ -38,17 +40,20 @@ const Footer = () => {
                     <h4>
                         About Me
                     </h4>
-                    <p>Hello test text over here will add the original text later</p>
+                    <p>I am currently a student and I will graduate in 2025.</p>
                     <div className="social">
-                    <FaFacebook size={30} style={
-                        {color:"#fff",marginRight:"1rem"}
-                    }/>
-                    <FaTwitter size={20} style={
+                    <a href="https://leetcode.com/u/jaiswalsajal9/" target="_blank" className="leetcode">    
+                    <SiLeetcode size={30}  className="leetcode"style={
+                        {marginRight:"1rem"}
+                    }/></a>
+                    <a href="https://github.com/Sajal0418" target="_blank" className="Github"> 
+                    <AiFillGithub size={30} className="github" style={
                         {color:"#fff",marginRight:"2rem"}
-                    }/>
-                    <FaLinkedin size={20} style={
-                        {color:"#fff",marginRight:"2rem"}
-                    }/>
+                    }/></a>
+                    <a href="https://www.linkedin.com/in/jaiswalsajal9/" target="_blank" className="Linkedin">
+                    <FaLinkedin size={30} className="linkedin" style={
+                        {marginRight:"2rem"}
+                    }/></a>
                     </div>   
             </div>
         </div>

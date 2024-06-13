@@ -46,6 +46,33 @@ p{
     font-size: 1.2rem;
 }
 
+.leetcode {
+    color: #FFA116; /* Initial color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .leetcode:hover {
+    color: #FF8800; 
+    transform: scale(1.2); 
+  }
+  
+  .github{
+    color:#181717;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .github:hover {
+   
+    transform: scale(1.2);
+  }
+
+  .linkedin{
+    color: #0077B5;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .linkedin:hover{
+    transform: scale(1.2);
+  }
 @media  screen and (max-width:640px) {
     .footer-container{
         grid-template-columns: 1fr;
