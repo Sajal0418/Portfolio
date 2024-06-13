@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="social">
                     <a href="https://leetcode.com/u/jaiswalsajal9/" target="_blank" className="leetcode">    
                     <SiLeetcode size={30}  className="leetcode"style={
-                        {marginRight:"1rem"}
+                        {marginRight:"2rem"}
                     }/></a>
                     <a href="https://github.com/Sajal0418" target="_blank" className="Github"> 
                     <AiFillGithub size={30} className="github" style={
