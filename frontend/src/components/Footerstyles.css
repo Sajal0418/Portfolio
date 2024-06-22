@@ -1,0 +1,80 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0rem ;
+    background-color: rgba(19,19,19,0.8);
+}
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-gap: 40px;
+}
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location {
+    display: flex;
+    margin-bottom:0.8rem ;
+}
+.location p{
+    line-height: 30px;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    margin-top: 1rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.leetcode {
+    color: #FFA116; /* Initial color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .leetcode:hover {
+    color: #FF8800; 
+    transform: scale(1.2); 
+  }
+  
+  .github{
+    color:#181717;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .github:hover {
+   
+    transform: scale(1.2);
+  }
+
+  .linkedin{
+    color: #0077B5;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .linkedin:hover{
+    transform: scale(1.2);
+  }
+@media  screen and (max-width:640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
